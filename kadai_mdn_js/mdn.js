@@ -6,7 +6,8 @@ const today = new Date();
 const todaysYear = today.getFullYear();
 
 //月
-const todaysMonth = today.getMonth();
+const todaysMonth = today.getMonth() + 1;
+
 
 //日
 const todaysDay = today.getUTCDate();
